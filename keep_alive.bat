@@ -6,5 +6,5 @@
   echo "-----------------------------"
   echo "Packets returned with %ERRORLEVEL% Error"
   echo "-----------------------------"
-  timeout /t 90
+  timeout /t 8
   goto loop
