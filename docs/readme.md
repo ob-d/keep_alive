@@ -1,11 +1,8 @@
-This script will first ping the Google IP address once. Then, it will sleep for 10 minutes. After 10 minutes, it will ping the Google IP address again. This will continue indefinitely.
+The keep_alive script will first ping a domain. Then, it will sleep for N seconds. This will continue indefinitely.
+It is to keep alive any 4G-5G connection, which tend to timeout at large downloads, despite the current download.
 
-This will start the script and it will begin pinging the Google IP address once every 10 minutes.
-You can set the sleep time by enter a number in seconds at the line: 
-```
-timeout /t <your-time>
-```
-
+How to run the script: In the windows folder with the script, type "cmd" in the address bar, or open a cmd and 'cd' into the directory.
+Then in the cmd, enter the following command:
 ```
 keep_alive.bat
 ```
